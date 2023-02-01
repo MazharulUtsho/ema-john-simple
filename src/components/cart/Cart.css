@@ -1,0 +1,39 @@
+.cart-calculation {
+    position: sticky;
+    top: 0;
+}
+
+.cart-calculation h1 {
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+
+.cart-calculation p {
+    padding-top: 5px;
+    padding-left: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+.cart-calculation h2 {
+    padding-left: 15px;
+    padding-top: 15px;
+    color: white;
+}
+
+@media only screen and (max-width:700px) {
+    .cart-calculation {
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+
+    .cart-calculation h1 {
+        font-size: 20px;
+    }
+
+    .cart-calculation p {
+        padding-left: 10px;
+    }
+}
